@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#00bfeb</color>
+    <color name="gray">#292929</color>
+    <color name="green">#b3ff6e</color>
+    <color name="ic_launcher_background">#7D7574</color>
+    <color name="pink">#ff529d</color>
+    <color name="purple">#ffa3ff</color>
+    <color name="red">#ff4f4d</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Hesap Makinesi</string>
+    <style name="Base.Theme.HesapMakinesi" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.HesapMakinesi" parent="Base.Theme.HesapMakinesi"/>
+</resources>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/gray"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="608dp"
+        android:onClick="Yazdir"
+        android:text="1"
+        android:backgroundTint="@color/blue"
+        android:textColor="#0B0707"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="528dp"
+        android:onClick="Yazdir"
+        android:text="6"
+        android:backgroundTint="@color/blue"
+        android:textColor="#0C0808"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="608dp"
+        android:onClick="Yazdir"
+        android:text="2"
+        android:backgroundTint="@color/blue"
+        android:textColor="#0B0808"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="608dp"
+        android:onClick="Yazdir"
+        android:text="3"
+        android:backgroundTint="@color/blue"
+        android:textColor="#150D0D"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="528dp"
+        android:onClick="Yazdir"
+        android:text="4"
+        android:backgroundTint="@color/blue"
+        android:textColor="#0E0909"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_0"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="688dp"
+        android:onClick="Yazdir"
+        android:text="0"
+        android:backgroundTint="@color/blue"
+        android:textColor="#191010"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_dot"
+        android:layout_width="85dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="688dp"
+        android:onClick="Yazdir"
+        android:text=","
+        android:backgroundTint="@color/blue"
+        android:textColor="#0E0A0A"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_divide"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="368dp"
+        android:onClick="Yazdir"
+        android:text="/"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/red"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="448dp"
+        android:onClick="Yazdir"
+        android:text="9"
+        android:backgroundTint="@color/blue"
+        android:textColor="#0B0606"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="448dp"
+        android:onClick="Yazdir"
+        android:text="7"
+        android:backgroundTint="@color/blue"
+        android:textColor="#090707"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="448dp"
+        android:onClick="Yazdir"
+        android:text="8"
+        android:backgroundTint="@color/blue"
+        android:textColor="#090606"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_temizle"
+        android:layout_width="141dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="368dp"
+        android:onClick="Yazdir"
+        android:text="AC"
+        android:backgroundTint="@color/green"
+        android:textColor="#0B0000"
+        android:textSize="24sp"
+        app:iconPadding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="528dp"
+        android:onClick="Yazdir"
+        android:text="5"
+        android:backgroundTint="@color/blue"
+        android:textColor="#070606"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_equal"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="688dp"
+        android:onClick="Yazdir"
+        android:text="="
+        android:backgroundTint="@color/green"
+        android:textColor="@color/red"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_minus"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="528dp"
+        android:onClick="Yazdir"
+        android:text="-"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/red"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_multiply"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="448dp"
+        android:onClick="Yazdir"
+        android:text="x"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/red"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_plus"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="608dp"
+        android:onClick="Yazdir"
+        android:text="+"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/red"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_Sonuc"
+        android:layout_width="358dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="280dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#FFFCFC"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_sil"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="368dp"
+        android:backgroundTint="@color/green"
+        android:onClick="Yazdir"
+        android:text="SİL"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
